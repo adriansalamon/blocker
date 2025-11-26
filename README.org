@@ -159,7 +159,7 @@ Checksum file which can be used together with =sha256sum= to verify the integrit
 You can test the plugin functionallity with CoreDNS by adding the following to go.mod in the source code directory of coredns.
 
 #+begin_src go
-  rereplace github.com/icyflame/blocker => <local path to blocker>/blocker
+  replace github.com/icyflame/blocker => <local path to blocker>/blocker
 #+end_src
 
 ** Running Tests
